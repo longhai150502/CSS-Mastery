@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif ;
+    scroll-behavior: smooth;
+}
+ul li {
+    list-style: none;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background: bisque;
+    height: 110px;
+    box-shadow: 0 5px 5px rgba(45, 19, 2, 0.2);
+    z-index: 2;
+}
+.nav__bar{
+    margin: auto;
+    width: 80%;
+}
+.logo {
+    padding: 10px;
+}
+.navigation ul li{
+    display: inline;
+    margin: 15px;
+}
+.body{
+    margin: auto;
+    width: 100%;
+    background: bisque;
+}
+.big__img {
+    width: 100%;
+    height: 820px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.big__img img{
+    width: 100%;
+}
+.title_body{
+    margin: auto;
+    text-align: center;
+}
+.title_body img {
+    padding: 10px;
+}
+.title_body p {
+    color: #555;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.container {
+    background: bisque;
+}
+.Services {
+    display: flex;
+    background: bisque;
+    justify-content: center;
+    align-items: center;
+}
+.servicesItems{
+    display: flex;
+    width: 100%;
+}
+.serviceItem{
+    width: 25%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px 10px;
+    justify-content: center;
+    margin: 15px;
+}
+.imgService {
+    overflow: hidden;
+    margin: 15px;
+    position: relative;
+}
+.imgService img{
+    border-radius: 15px;
+}
+.icon__heart {
+    position: absolute;
+    display: flex;
+    right: 30px;
+    top: 20px;
+    background-color: #fff;
+    opacity: 0.6;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+.serviceDetail{
+    padding: 5px 20px;
+    text-align: center;
+}
+.serviceDetail .titleSrevice {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+}
+.detail {
+    color: #555;
+    margin: 10px ;
+}
+.serviceDetail button{
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #555;
+    cursor: pointer;
+}
+.viewAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 0 50px 0;
+}
+.viewAll button{
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    color: tomato;
+    background: bisque;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.contactUs{
+    background: darksalmon;
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.imgCamp {
+    width: 40%;
+    position: relative;
+}
+.imgBack {
+    position: absolute;
+    width: 120%;
+    height: 100%;
+}
+.imgBack img{
+    width: 200%;
+    height: 100%;
+    margin-left: -300px;
+}
+.homeImg {
+    position: relative;
+    margin-left: 100px;
+    padding: 10px;
+}
+.followUS {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc p:first-child{
+    font-size: 24px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 15px;
+}
+.desc p:last-child {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.downLoad {
+    float: left;
+    width: 50%;
+}
+.downLoad p{
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.follow {
+    float: left;
+    width: 50%;
+}
+.follow p{
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.follow span  i{
+    font-size: 25px;
+    color: tomato;
+    padding: 5px;
+}
+.footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.container__footer{
+    background: bisque;
+    width: 100%;
+    padding: 50px;
+    border-top-left-radius: 100px ;
+    border-top-right-radius: 100px ;
+}
+.footer__items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.desc__footer{
+    width: 40%;
+    margin-right: 30px;
+}
+.desc__footer p:first-child {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.desc__footer p:last-child{
+    color: #555;
+}
+.footer_item{
+    width: 20%;
+}
+.footer_item p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px; 
+}
+.footer_item ul li {
+    padding: 10px;
+    color: #555;
+}
+.last__line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    padding: 20px;
+}
